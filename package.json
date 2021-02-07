@@ -1,0 +1,24 @@
+{
+  "name": "jest-pptr",
+  "version": "1.0.0",
+  "description": "Test framework jest and puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ButeoButeo/JEST-PPTR.git"
+  },
+  "author": "TFPP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ButeoButeo/JEST-PPTR/issues"
+  },
+  "homepage": "https://github.com/ButeoButeo/JEST-PPTR#readme",
+  "dependencies": {
+    "jest": "^26.6.3",
+    "jest-puppeteer": "^4.4.0",
+    "puppeteer": "^7.0.1"
+  }
+}
