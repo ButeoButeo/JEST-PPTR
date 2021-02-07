@@ -1,11 +1,11 @@
 export default class BasePage{
     async wait(time){
-        await pageXOffset.waitFor(time);
+        await page.waitForTimeout(time);
     }
     async getTitle(){
-        return await pageXOffset.title();
+        return await page.title();
     }
     async getUrl(){
-        return await pageXOffset.url();
+        return await page.url();
     }
 }

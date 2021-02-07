@@ -8,7 +8,14 @@ export default class HomePage{
         await page.waitForSelector('#homeMenu');
         await page.waitForSelector('#onlineBankingMenu');
         await page.waitForSelector('#feedback');
-        
-
+    }
+    async clickHomepageLink(){
+        await page.click("homeMenu")
+    }
+    async clickOnLineBankingLink(){
+        await page.click("onlineBankingMenu")
+    }
+    async clickFeedbackLink(){
+        await page.click("#feedback")
     }
 }
