@@ -6,7 +6,7 @@ describe('Example', ()=> {
     let homepage
 
     beforeAll(async()=> {
-        jestConfig.setTimeout(15000)
+        jest.setTimeout(15000)
         homepage = new HomePage();
     })
 

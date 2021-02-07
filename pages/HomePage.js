@@ -1,7 +1,7 @@
 export default class HomePage{
     async visit(){
-        await pageXOffset.goto('http://zero.webappsecurity.com/index.html')
-        await pageXOffset.waitForSelector('#nav');
+        await page.goto('http://zero.webappsecurity.com/index.html')
+        await page.waitForSelector('#nav');
     }
     async isNavbarDisplayed(){
         await page.waitForSelector('#pages-nav');
